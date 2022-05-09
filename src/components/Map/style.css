@@ -1,0 +1,32 @@
+.svg-map {
+	max-width: 1000px;
+    width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.svg-map svg {
+	width: 100%;
+	height: auto;
+}
+.city-tooltip {
+	position: absolute;
+	z-index: 3;
+}
+.city-tooltip div {
+	font-family: 'Open Sans';
+	display: inline-block;
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+	padding: 8px 16px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+#svg-map path {
+	cursor: pointer;
+}
+#svg-map path:hover {
+	opacity: 0.8;
+}
+  
